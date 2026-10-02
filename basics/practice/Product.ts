@@ -22,3 +22,5 @@ function productFunction(products: {
 }
 
 console.log(productFunction(product));
+
+export {};

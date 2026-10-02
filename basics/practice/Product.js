@@ -1,4 +1,3 @@
-"use strict";
 const product = {
     productName: "Headphone",
     productId: 1450,
@@ -9,3 +8,4 @@ function productFunction(products) {
     return `Product: ${products.productName} — ${products.productPrice} — ${products.productAvailability ? "Available" : "Unavailable"}`;
 }
 console.log(productFunction(product));
+export {};
